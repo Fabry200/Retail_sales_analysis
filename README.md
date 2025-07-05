@@ -79,14 +79,14 @@ The project follows a standard data science pipeline:
 
 * **Overall Performance**:
     * The average customer places approximately `92` orders, purchases around `1194` objects, and generates an average revenue of `2054$`.
-    * The gross total revenue for the analyzed period is approximately `[total_revenue]$`.
+    * The gross total revenue for the analyzed period is approximately `8911407.9 $` counting outliers tho.
 * **Country-wise Contribution**:
     * The analysis identifies countries like `United Kingdom` and `Netherlands` as significant revenue contributors, highlighting their importance to the business.
-    * ["The United Kingdom accounts for the largest share of revenue 82%, with a significant average spend per customer."]
+    * The United Kingdom accounts for the largest share of revenue 82%, with a significant average spend per customer.
 * **Monthly Sales Trends**:
     * The bar chart depicting monthly revenue helps to visualize sales patterns throughout the year.
-    * ["Revenue trends show a consistent flow with potential peaks or dips at specific times of the year, providing insights into seasonal demand or growth." ]
-    * ["Peak revenue months are September,October and November , lower revenue months are: February, April, December"]
+    * Revenue trends show a consistent flow with potential peaks or dips at specific times of the year, providing insights into seasonal demand or growth.
+    * Peak revenue months are September,October and November , lower revenue months are: February, April, December
 * **Customer Segments (K=3 Clusters)**:
     * Based on RFM metrics, customers are segmented into 3 distinct groups, each with unique characteristics and revenue contributions:
         * **Cluster 0**: This segment generated approximately `2163807$` with `121107` transactions, representing `49.56%` of the total revenue. 
