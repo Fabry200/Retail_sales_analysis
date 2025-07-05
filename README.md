@@ -78,20 +78,21 @@ The project follows a standard data science pipeline:
 ## Key Insights & Results
 
 * **Overall Performance**:
-    * The average customer places approximately `[average_order_amount]` orders, purchases around `[average_order_size]` objects, and generates an average revenue of `[average_order_revenue]$`.
+    * The average customer places approximately `92` orders, purchases around `1194` objects, and generates an average revenue of `2054$`.
     * The gross total revenue for the analyzed period is approximately `[total_revenue]$`.
 * **Country-wise Contribution**:
-    * The analysis identifies countries like `[Top Country 1]` and `[Top Country 2]` as significant revenue contributors, highlighting their importance to the business.
-    * [**Example**: "The United Kingdom (presumably country code 24) accounts for the largest share of revenue, with a significant average spend per customer."]
+    * The analysis identifies countries like `United Kingdom` and `Netherlands` as significant revenue contributors, highlighting their importance to the business.
+    * ["The United Kingdom accounts for the largest share of revenue 82%, with a significant average spend per customer."]
 * **Monthly Sales Trends**:
     * The bar chart depicting monthly revenue helps to visualize sales patterns throughout the year.
-    * [**Example**: "Revenue trends show a consistent flow with potential peaks or dips at specific times of the year, providing insights into seasonal demand or growth." (Refer to your `Y` list and `month_abbreviations` plot to describe specifics).]
+    * ["Revenue trends show a consistent flow with potential peaks or dips at specific times of the year, providing insights into seasonal demand or growth." ]
+    * ["Peak revenue months are September,October and November , lower revenue months are: February, April, December"]
 * **Customer Segments (K=3 Clusters)**:
     * Based on RFM metrics, customers are segmented into 3 distinct groups, each with unique characteristics and revenue contributions:
-        * **Cluster 0**: This segment generated approximately `[Cluster 0 Revenue]$` with `[Cluster 0 Frequency]` transactions, representing `[Cluster 0 %]` of the total revenue. (e.g., often high-value, recent, frequent customers).
-        * **Cluster 1**: This segment generated approximately `2163807$` with `121107` transactions, representing `[Cluster 1 %]` of the total revenue. (e.g., often medium-value, less recent or frequent customers).
-        * **Cluster 2**: This segment generated approximately `[Cluster 2 Revenue]$` with `[Cluster 2 Frequency]` transactions, representing `49.56 %` of the total revenue. (e.g., often low-value, less active customers or those with high recency).
-    * [**Please replace `[Cluster X Revenue]`, `[Cluster X Frequency]`, `[Cluster X %]` with actual numbers from your code's output to make this section accurate.**]
+        * **Cluster 0**: This segment generated approximately `2163807$` with `121107` transactions, representing `49.56%` of the total revenue. 
+        * **Cluster 1**: This segment generated approximately `394207$` with `24356` transactions, representing `9.03%` of the total revenue. 
+        * **Cluster 2**: This segment generated approximately `1807722$` with `109794` transactions, representing `41.41 %` of the total revenue. 
+
 
 ## Setup and Usage
 
